@@ -22,7 +22,7 @@
             "BrianFaust\\PresenterRegistrar\\": "src/"
         },
         "files": [
-            "src/functions.php"
+            "src/helpers.php"
         ]
     },
     "autoload-dev": {
