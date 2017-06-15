@@ -20,7 +20,7 @@ $ composer require faustbrian/laravel-presenter-registrar
 
 #### Register presenters via PresenterServiceProvider
 
-```html
+```php
 <?php
 
 namespace App\Providers;
