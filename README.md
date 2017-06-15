@@ -29,11 +29,6 @@ use BrianFaust\PresenterRegistrar\PresenterRegistrarServiceProvider as ServicePr
 
 class PresenterServiceProvider extends ServiceProvider
 {
-    /**
-     * The policy mappings for the application.
-     *
-     * @var array
-     */
     protected $presenters = [
         'App\User' => 'App\Presenters\UserPresenter',
         'ThirdParty\Models\Model' => 'App\Presenters\ThirdPartyPresenter',
