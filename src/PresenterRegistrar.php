@@ -17,14 +17,16 @@ class PresenterRegistrar
 {
     /**
      * The presenter mappings for the application.
+     *
      * @var array
      */
     private $presenters = [];
 
     /**
      * Define a presenter class for a given model type.
-     * @param  string $model
-     * @param  string $presenter
+     *
+     * @param string $model
+     * @param string $presenter
      */
     public function register(string $model, string $presenter)
     {
@@ -33,7 +35,9 @@ class PresenterRegistrar
 
     /**
      * Get a presenter class for a given model type.
-     * @param  \Illuminate\Database\Eloquent\Model  $model
+     *
+     * @param \Illuminate\Database\Eloquent\Model $model
+     *
      * @return object
      */
     public function get(Model $model)
