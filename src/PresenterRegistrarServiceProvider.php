@@ -17,6 +17,8 @@ use Illuminate\Support\ServiceProvider;
 
 class PresenterRegistrarServiceProvider extends ServiceProvider
 {
+    public $presenters = [];
+
     /**
      * Register any presenters for your application.
      *
