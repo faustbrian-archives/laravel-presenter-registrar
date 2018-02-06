@@ -13,7 +13,6 @@ declare(strict_types=1);
 
 namespace BrianFaust\Tests\PresenterRegistrar;
 
-use BrianFaust\PresenterRegistrar\PresenterRegistrarServiceProvider;
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
 
 class ServiceProviderTest extends AbstractTestCase
