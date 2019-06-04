@@ -1,12 +1,12 @@
 {
-    "name": "faustbrian/laravel-presenter-registrar",
+    "name": "artisanry/presenter-registrar",
     "description": "Laravel like approach to View Presenters",
-    "keywords": ["laravel", "framework", "Laravel-presenter-registrar", "Laravel Presenter Registrar", "Brian Faust", "faustbrian"],
+    "keywords": ["laravel", "framework", "Laravel-presenter-registrar", "Laravel Presenter Registrar"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
+        "email": "hello@basecode.sh",
+        "homepage": "https://basecode.sh"
     }],
     "require": {
         "php": "^7.1",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\PresenterRegistrar\\": "src/"
+            "Artisanry\\PresenterRegistrar\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -27,7 +27,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\PresenterRegistrar\\": "tests"
+            "Artisanry\\Tests\\PresenterRegistrar\\": "tests"
         }
     },
     "config": {
@@ -40,7 +40,7 @@
         },
         "laravel": {
             "providers": [
-                "BrianFaust\\PresenterRegistrar\\PresenterRegistrarServiceProvider"
+                "Artisanry\\PresenterRegistrar\\PresenterRegistrarServiceProvider"
             ]
         }
     },
